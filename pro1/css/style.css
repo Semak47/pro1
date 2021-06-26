@@ -1,3 +1,36 @@
 h1 {
     color: red;
 }
+
+
+.titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+button {
+    border: none;
+
+}
+
+.myButton {
+    color: blueviolet;
+    background: rgb(146, 126, 126);
+    border-radius: 6px;
+    padding: 16px;
+    margin-left: 16px;
+}
+
+.myButton1 {
+    color: rgb(111, 158, 49);
+    background: rgb(146, 126, 126);
+    border-radius: 6px;
+    padding: 12px;
+}
